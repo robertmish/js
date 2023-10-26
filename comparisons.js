@@ -16,25 +16,22 @@ if (userStatus == "Active") {
 
 // // greater than using >
 
-// const age = 16;
-// const parents = "Mijalkov";
+const parents = "Mijalkov";
 
-// if (age < 18 && parents === "Mijalkov") {
-//   console.log("User can own the bar");
-// } else {
-//   console.log("User must drink only orange juice");
-// }
+if (age < 18 && parents === "Mijalkov") {
+  console.log("User can own the bar");
+} else {
+  console.log("User must drink only orange juice");
+}
 
-// // smaller than <
+age = 16;
+allowedAge = 18;
 
-// age = 16;
-// allowedAge = 18;
-
-// if (age === allowedAge) {
-//   console.log("User can drink beer");
-// } else {
-//   console.log("User can't drink'");
-// }
+if (age === allowedAge) {
+  console.log("User can drink beer");
+} else {
+  console.log("User can't drink'");
+}
 
 // bigger or equal to >=
 
