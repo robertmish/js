@@ -4,7 +4,7 @@
 const name = "Robert";
 
 // Number
-const age = 34;
+// const age = 34;
 
 // Bolean
 let status = true;
@@ -18,19 +18,20 @@ const heart = Symbol("Robert");
 
 // Printing the values of variables
 
-const x = Symbol("hey");
-
-console.log(x.description);
-
 // Objects
 
 const userInfo = {
-  name: "robert",
-  age: 34,
-  status: true,
-  hobbie: null,
+  names: {
+    name1: "Robert",
+    name2: "John",
+    name3: "Fati",
+  },
+  values: {
+    name: "robert",
+    age: 34,
+    status: true,
+    hobbie: 344,
+  },
 };
 
-const sentence = `Robert is ${age} and his marriage status is ${status}`;
-
-console.log(sentence);
+// console.log(userInfo);
