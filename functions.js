@@ -1,19 +1,18 @@
 // // basic function
 
-// function greeting() {
-//   const name = prompt("What is your name");
-//   console.log("Welcome to our website" + name);
-// }
-
-// // Executing the function
-
-// greeting();
+// // // Executing the function
 
 // // SIgnup function example
 
 // function signup() {
-//   const username = prompt("Enter usernane");
+//   const username = prompt("Enter username");
 //   greeting();
+// }
+
+// function hellothere() {
+//   alert("This website uses cookies");
+//   const name = prompt("What is your name");
+//   alert("Hello " + name);
 // }
 
 // // Executing a function inside a function
@@ -21,18 +20,26 @@
 // /* You can never access a let or const that is inside a function
 // exept inside the function, the acces of the variable is only within the function */
 
+// function username() {
+//   const age = prompt("What is your age");
+//   console.log(age);
+// }
+
+// username();
 // // Adding parameters inside a function
 
-// function login(password) {
-//   console.log("Your password is" + password);
-// }
+function maxNumber(num1, num2) {
+  if (num1 > num2) {
+    alert(num1 + " is the bigger number");
+  } else if (num2 > num1) {
+    alert(num2 + " is the bigger number");
+  }
+}
 
-// function signup() {
-//   const username = prompt("Enter usernane");
-//   login("robermish", 1231232);
-// }
+const number1 = prompt("Enter the first number?");
+const number2 = prompt("Enter the seccond number");
 
-// signup();
+maxNumber(number1, number2);
 
 // // The value that you pass inside a function is call arguments and you can have more than 1
 
